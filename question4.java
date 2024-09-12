@@ -1,15 +1,20 @@
 // Concatenating with + sign
-public class main{
-public static void main(string[] args)}
-string str1= “Hello”;
-string str2= “world”;
-string result= str1+“,”+str2;
-system.out.printin(result);//output:Hello, world
+public class Main {
+    public static void main(String[] args) {
+        String str1 = "Hello";
+        String str2 = "world";
+        String result = str1 + ", " + str2;
+        System.out.println(result); // output: Hello, world
+    }
+}
 
-//Concatenating with join sign
-public class main{
-public static void main(string[] args){
-string str1= Hello;
-string str2= world;
-string result= string:join(“,”,str1,str2);
-system.out.printin(result);// output: Hello,world
+
+// Concatenating with String.join
+public class Main {
+    public static void main(String[] args) {
+        String str1 = "Hello";
+        String str2 = "world";
+        String result = String.join(",", str1, str2);
+        System.out.println(result); // output: Hello,world
+    }
+}
